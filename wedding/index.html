@@ -1,18 +1,47 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
-	<head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-        <meta name="viewport" content="width=device-width, initial-scale=1"> 
-        <title>Rajkumar Weds Yuvashri</title>
-        <meta name="description" content="Rajkumar, Yuvashri wedding" />
-        <meta name="keywords" content="Rajkumar weds Yuvashri, Rajkumar, Yuvashri, Wedding" />
-        <meta name="author" content="Rajkumar" />
-        <!--[if IE]>
-        	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
-	</head>
-	<body>
-        <h1>Wedding coming soon</h1>
-        </body>
-        </html>
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<title>Rajkumar Weds Yuvashri</title>
+<meta name="description" content="Rajkumar, Yuvashri wedding" />
+<meta name="keywords" content="Rajkumar weds Yuvashri, Rajkumar, Yuvashri, Wedding" />
+<meta name="author" content="Rajkumar" />
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+<!--[if IE]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<style type="text/css">
+body{
+   font-family: 'Open Sans', sans-serif;
+
+}
+#Main{
+        background:url(rajyuva.jpg) no-repeat;
+        background-size:contain;
+        position: relative;
+        width: 100%;
+        background-position: center;
+}
+h1{
+position: absolute;
+top: 80%;
+left: 50%;
+transform: translate(-50%, 50%);
+font-weight: 100;
+}
+</style>
+</head>
+<body>
+<div id="Main">
+        <h1>Wedding coming soon</h1>        
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript">
+        var ht = $(window).innerHeight();
+        ht = ht -50
+       $('#Main').css('height', ht);
+</script>
+</body>
+</html>

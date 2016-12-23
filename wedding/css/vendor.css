@@ -1,3 +1,10 @@
+.loading{
+	text-align: center;
+    font-size: 24px;
+    position: relative;
+    top: 90%;
+    color: #e7214a;
+}
 /*L*/
  .pace{-webkit-pointer-events:none;pointer-events:none;-webkit-user-select:none;-moz-user-select:none;user-select:none;z-index:2000;position:fixed;height:100%;width:100%;margin:auto;top:0;left:0;right:0;bottom:0;background:#fff}.pace.pace-inactive{background:0 0}.pace-progress-inner,.pace.pace-inactive .pace-progress{display:none}.pace .pace-progress{z-index:2000;display:block;position:absolute;left:50%;top:50%;transform:translate(-50%,-50%)!important;height:350px;width:350px;font-size:2rem;background:url(../img/rajyuva-preloader.gif) no-repeat;background-size:contain;color:#fff;font-family:"Helvetica Neue",sans-serif;font-weight:100;text-align:center}.pace .pace-progress:after{content:attr(data-progress-text);display:block}
 /*B*/

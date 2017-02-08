@@ -4,15 +4,22 @@
      <meta charset="utf8">
      <meta httpequiv="XUACompatible" content="IE=edge">
      <meta name="viewport" content="width=devicewidth, initialscale=1.0">
+     <meta name="keywords" content="Rajkumar Frontend developer, UI/UX Designer and web developer, Web Developer, Frontend Web Developer, Web Designer, Rajkumar, Rajkumar Designer, Rajkumar Developer, Personal Website, Personal Portfolio, UI Designer, User Interface Developer, User Experience Designer, Product UI desginer, Web Application Designer, Widget Design, Logo Design, Branding, Web Portfolio,  Personal Web Portfolio, Designer Portfolio " />
      <meta name="description" content="Rajkumar Frontend developer, UI/UX Designer and web developer">
-     <meta name="Rajkumarui" content="Frontend developer">
-     <title>Rajkumar Frontend developer, UI/UX Designer and web developer</title>
+     <meta name="Rajkumarui" content="Frontend Developer">
+     <meta name="publisher" content="Rajkumar" />
+     <meta name="author" content="Rajkumar" />
+     <title>Rajkumar Frontend Developer, UI/UX Designer and Web Developer</title>
+     
+     <link rel="stylesheet" type="text/css" href="assets/css/animate.css" />
      <!-- Bootstrap -->
      <link href="assets/css/bootstrap.css" rel="stylesheet">
- 	   <link href="assets/css/fontawesome.min.css" rel="stylesheet">
+ 	   <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+     <link rel="stylesheet" type="text/css" href="assets/css/component.css" />
+     <link href='http://fonts.googleapis.com/css?family=Raleway:200,400,800' rel='stylesheet' type='text/css'/>
  
      <!-- simple style -->
-     <link href="assets/css/style.css" rel="stylesheet">
+     <link href="assets/css/rajkumar_style.css" rel="stylesheet">
      
      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries >
      <![if lt IE 9]-->
@@ -21,26 +28,234 @@
      <!-- [endif]-->
    </head>
    <body>
- 	<div id="wrapper">
-   <div class="overlay"></div>
- 		<div class="container">
- 			<div class="row">
- 				<div class="colsm12 colmd12 collg12">
-           <div class="media">
-             <div class="medialeft">
-               <a href="#">
-                 <img class="mediaobject" src="assets/img/rajkumarui.png" alt="Rajkumar" title="Rajkumar">
-               </a>
-             </div>
-             <div class="mediabody">
-               <h1>Rajkumar</h1>
-               <h2 class="subtitle">Frontend Developer</h2>
-             </div>
-           </div><!-- media -->
- 				</div>
-         
- 			</div><!-- /row -->
- 		</div><!-- /container -->
- 	</div><!-- /#wrapper -->
+ 	<div class="preloader_window">
+        <div class="preloader_img"><img src="assets/img/Preloader_snake.gif" alt=""></div>
+      </div>
+    <div class="container_whole landing_page_bg">
+          <div class="menu-wrap">
+        <nav class="menu">
+          <div class="icon-list">
+            <a href="#large-header"><i class="fa fa-bullseye"></i><span>INTRODUCTION</span></a>
+            <a href="#What_i_do"><i class="fa fa-code"></i><span>WHAT I DO</span></a>
+            <a href="#What_i_done"><i class="fa fa-suitcase"></i><span>WHAT I'&rsquo;VE DONE</span></a>
+            <a href="#contact"><i class="fa fa-paper-plane"></i><span>CONTACT</span></a>
+          </div>
+        </nav>
+        <button class="close-button" id="close-button">Close Menu</button>
+      </div>
+      <button class="menu-button" id="open-button">Open Menu</button>
+            <div class="content-wrap" id="nice">
+      <div class="content">
+        <section id="large-header" class="large-header">
+          <canvas id="landing-page-canvas"></canvas>
+                    <div class="logo_holder">
+                    <img class="logo" src="assets/img/Rajkumar-Logo.png" alt="Rajkumar-logo"/>
+                    <div class="circular"></div>
+                    </div>
+          <h1 class="main-title">Rajkumar<span class="thin raj_descp_heading" >UI DESIGNER & DEVELOPER</span></h1>
+                    <audio controls id="theam_music">
+                      <source src="assets/audio/theam.mp3" type="audio/mpeg">
+                    </audio>
+        </section>
+        
+        <section id="What_i_do">
+                  <div class="container">
+                  <div class="row">
+                    <div class="col-lg-12">
+                          <h1 class="What_i_do">WHAT I DO</h1>
+                            <div class="article_list">
+                            <div class="row">
+                              <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                                    <article class="development">
+                                    <span class="development_icon"></span>
+                                    <h2>DEVELOPMENT</h2>
+                                    <p>I develop web applications and mobile apps using android. Real web designers write code.</p>
+                                    </article>
+                                </div>
+                              <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                                  <article class="design">
+                                    <span class="design_icon"></span>
+                                    <h2>DESIGN</h2>
+                                    <p>Design where creativity is born. Applications without good design, is like coffee without sugar.</p>
+                                    </article>
+                                </div>
+                            </div><!-- /row -->
+                            
+                            <div class="row">
+                              <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                                  <article class="open_source">
+                                    <span class="open_source_icon"></span>
+                                    <h2>RESEARCH</h2>
+                                    <p>I <i class="fa fa-heart"></i>doing research and everything about it to its very nature. One day will create an impact on a million.</p>
+                                    </article>
+                                </div>
+                              <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                                  <article class="World">
+                                    <span class="World_icon"></span>
+                                    <h2>WORLD</h2>
+                                    <p>Besides coding, designing, watching tv, wasting time with friends I do my utmost best to change the world.</p>
+                                    </article>
+                                </div>
+                            </div><!-- /row -->
+                            </div><!-- /article_list -->
+                        </div>
+                  </div>
+                </div><!-- /container -->
+                  
+        </section><!-- /What_i_do -->
+                
+                <section class="What_i_done" id="What_i_done">
+                <div class="What_i_done_header">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                               <div class="pug_img_holder">
+                                 <div class="pug_img_carry"></div>
+                                </div>
+                                <h1>WHAT I&rsquo;VE DONE</h1>
+                            </div>
+                        </div>
+                    </div><!-- /container -->
+                </div><!-- /What_i_done_header -->
+                
+                <div class="project project_odd">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+                          <div class="project_info">
+                            <h2>Chiragu</h2>
+                            <h3>Web Application Development</h3>
+                            <p>Chiragu is a creative website with smooth animations and effects </p>
+                            <div class="project_link project_link_odd">
+                            <a href="http://chiragu.com/" target="_blank" title="Chiragu">View project</a>
+                            
+                            </div>
+                            </div><!-- /project_info -->  
+                        </div>
+                    <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
+                          <div class="project_img">
+                            <img src="assets/img/chiragu.png" alt="chiragu">
+                            </div><!-- /project_img -->
+                        </div>
+                  </div><!-- /row -->
+                </div><!-- /container -->
+                </div><!-- /project_odd -->
+                
+                <div class="project project_even">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+                          <div class="project_info">
+                            <h2>Parents Connect app</h2>
+                            <h3>Android App Design</h3>
+                            <p>Parents Connect is an android application that helps 
+        parents to get instance information about their children 
+        from kids care</p>
+                            <div class="project_link project_link_even"><a href="https://play.google.com/store/apps/details?id=com.parentsconnect.core&hl=en" target="_blank" title="Parents Connect App">View project</a></div>
+                            </div><!-- /project_info -->
+                        </div>
+                    <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
+                          <div class="project_img">
+                            <img src="assets/img/App-Screens-Parents-Connect.png" alt="Parents Connect App">
+                            </div><!-- /project_img -->
+                        </div>
+                  </div><!-- /row -->
+                </div><!-- /container -->
+                </div><!-- /project_even -->
+                
+                <div class="project project_odd">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+                          <div class="project_info">
+                            <h2>The Safe house</h2>
+                            <h3>Responsive Web Development</h3>
+                            <p>The Safe House is a responsive website, its a website about 
+        gold and sliver stroage agency.</p>
+                            <div class="project_link project_link_odd"><a href="http://www.thesafehouse.sg/" target="_blank" title="The Safe House">View project</a></div>
+                            </div><!-- /project_info -->
+                        </div>
+                    <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
+                          <div class="project_img">
+                            <img src="assets/img/safe_house.png" alt="The Safe House">
+                            </div><!-- /project_img -->
+                        </div>
+                  </div><!-- /row -->
+                </div><!-- /container -->
+                </div><!-- /project_odd -->
+                
+                <div class="project project_even">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+                          <div class="project_info">
+                            <h2>Capturing</h2>
+                            <h3>Website Development</h3>
+                            <p>Capturing is a responsive wordpress website,
+        its a Candid photography and Wedding videography website .</p>
+                            <div class="project_link project_link_even"><a href="http://www.capturing.in/" target="_blank" title="Capturing">View project</a></div>
+                            </div><!-- /project_info -->
+                        </div>
+                    <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
+                          <div class="project_img">
+                            <img src="assets/img/capturing.jpg" alt="Nabthat">
+                            </div><!-- /project_img -->
+                        </div>
+                  </div><!-- /row -->
+                </div><!-- /container -->
+                </div><!-- /project_even -->
+                </section><!-- /What_i_done -->
+                
+                <section class="contact" id="contact">
+                <div class="raj_bg">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                          <div class="contact_field">
+                            </div><!-- /contact_field -->
+                        </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                          <div class="contact_form">
+                            <div>
+                            <h1>Just Say Hi!</h1>
+                            <form id="contactform" class="message_form" method="post" action="sendmail.php" novalidate>
+                                <input type="text" name="name" id="name" placeholder="Your Name">
+                                <input type="text" name="email" id="email" placeholder="Your E-mail ID">
+                                <textarea name="message"  id="message" cols="30" rows="5" placeholder="Type your words here..."></textarea>
+                                <button type="submit" name="phone" value="SEND" ><span class="fa fa-send"></span> SEND</button>
+                                <div class="subber"></div>
+                            </form>
+                            </div>
+                          </div><!-- /contact_form -->
+                        </div>
+                  </div>
+                </div><!-- /container -->
+                </div><!--/raj_bg-->
+               
+               
+                </section><!-- /contact -->
+      </div><!-- /content -->
+            
+            
+           </div><!-- /content-wrap --> 
+    </div><!-- /container -->
+        <script src="assets/js/jquery.min.js" type="text/javascript"></script>
+        <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="assets/js/jquery.nicescroll.js" type="text/javascript"></script>
+    <script type="text/javascript">
+    /*Preloader*/
+    var winheight;
+      winheight = window.innerHeight;
+      $(".preloader_window").css("height", winheight);
+
+    $(window).bind("load", function() {
+      $(".preloader_window").fadeOut(500);
+    });
+    </script>
+    <script src="assets/js/TweenLite.min.js" type="text/javascript"></script>
+    <script src="assets/js/EasePack.min.js" type="text/javascript"></script>
+    <script src="assets/js/rAF.js" type="text/javascript"></script>    <script src="assets/js/landing_page.js" type="text/javascript"></script>
+        <script src="assets/js/classie.js" type="text/javascript"></script>
+        <script src="assets/js/rajkumar_script.js" type="text/javascript"></script>
    </body>
  </html>
